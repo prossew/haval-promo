@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Haval</title>
+  </head>
+  <body>
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal">
+        <button class="modal__close" id="modalClose">&#x2715;</button>
+        <div class="modal__logo-line"></div>
+        <h3 class="modal__title">Зафиксировать условия</h3>
+        <p class="modal__subtitle">Оставьте номер — мы перезвоним и зафиксируем вашу выгоду</p>
+
+        <div class="modal__body">
+          <div class="modal__input-wrap">
+            <input
+              type="tel"
+              class="modal__input"
+              id="phoneInput"
+              placeholder="+7 (___) ___-__-__"
+              maxlength="18"
+            />
+          </div>
+          <button class="modal__btn" id="modalSubmit">Отправить заявку</button>
+          <p class="modal__agree">
+            Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a>
+          </p>
+        </div>
+
+        <div class="modal__success" id="modalSuccess">
+          <p class="modal__success-title">Заявка принята!</p>
+          <p class="modal__success-text">Мы перезвоним вам в ближайшее время</p>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__logo">
+        <a href="#"><img src="img/logo/logo1.svg" alt="logo" class="header__logo-img" /></a>
+      </div>
+      <div class="header__tel">
+        <a href="tel:+00000000000" class="header__tel-link">+0 000 000 00 00</a>
+      </div>
+      <div class="header__location">
+        <p class="header__location-text">г. Москва</p>
+        <p class="header__location-text">Часы работы с 09:00 до 21:00</p>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li><a href="#">M6</a></li>
+        <li><a href="#">DARGO X</a></li>
+        <li><a href="#">DARGO</a></li>
+        <li><a href="#">JOLION</a></li>
+        <li><a href="#">F7x</a></li>
+        <li><a href="#">F7</a></li>
+        <li><a href="#">H9</a></li>
+        <li><a href="#">GWM Poer</a></li>
+        <li><a href="#" class="nav__menu-gap">GWM Poer KINGKONG</a></li>
+        <li><a href="#">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a></li>
+        <li><a href="#">ТЕСТ-ДРАЙВ</a></li>
+        <li><a href="#">КОНТАКТЫ</a></li>
+      </ul>
+    </nav>
+    <main class="main">
+      <div class="main__title">
+        <h1 class="main__title-h1">Увеличиваем выгоды на HAVAL</h1>
+        <h2 class="main__title-h2">в Химках к Чёрной пятнице!</h2>
+      </div>
+      <div class="main__button">
+        <button class="main__button-btn open-modal">Зафиксировать условия</button>
+      </div>
+    </main>
+
+    <section class="offer">
+      <div class="offer__block">
+        <p>Оставьте заявку и зафиксируйте условия</p>
+
+        <style>
+          .sinoby-timer[data-sinoby-reserve="sinoby-ad1xkr"] {
+            display: block;
+            min-height: 114px;
+          }
+          @media (max-width: 767px) {
+            .sinoby-timer[data-sinoby-reserve="sinoby-ad1xkr"] {
+              min-height: 83px;
+            }
+          }
+        </style>
+        <div
+          class="sinoby-timer"
+          data-sinoby-reserve="sinoby-ad1xkr"
+          data-config='{
+  "type": "duration",
+  "preset": "rings-soft",
+  "schedule": {
+    "durationSeconds": 723360,
+    "durationStartMode": "first-visit"
+  },
+  "visibility": {
+    "separator": false
+  },
+  "style": {
+    "digitGap": 8,
+    "digitColor": "#000000",
+    "labelSize": 18,
+    "labelGap": 0,
+    "labelColor": "#b9b9b9",
+    "cardBackgroundColor": "#f8fafc",
+    "ringCurrentColor": "#00cabf",
+    "ringRemainingColor": "#b2adad",
+    "ringLineMode": "gradient",
+    "ringCurrentColorEnd": "#00cabf"
+  }
+}'
+          data-lazy="true"
+        ></div>
+        <script src="//timer.sinoby.ru/public/assets/embed/timer-core.min.js?v=20260514a"></script>
+      </div>
+      <div class="offer__button">
+        <button class="offer__button-btn open-modal">Зафиксировать условия</button>
+      </div>
+    </section>
+
+    <section class="cars">
+      <div class="cars__grid">
+        <div class="car-card">
+          <div class="car-card__badge">
+            <span>В НАЛИЧИИ</span>
+            <span class="car-card__badge-count">21 АВТОМОБИЛЬ</span>
+          </div>
+
+          <div class="car-card__inner">
+            <div class="car-box">
+              <div class="car-card__top">
+                <h2 class="car-card__name">HAVAL M6</h2>
+                <a href="#" class="car-card__testdrive"> Записаться<br />на тест-драйв </a>
+              </div>
+              <p class="car-card__benefit">Выгода до <span>410 000 ₽</span></p>
+              <div class="car-card__img-wrap">
+                <div class="car-background"></div>
+                <img src="img/img/car/black-m6.svg" alt="HAVAL M6" class="car-card__img" />
+              </div>
+            </div>
+          </div>
+          <div class="car-card__colors">
+            <button
+              class="color-dot color-dot--black active"
+              data-img="/img/img/car/black-m6.svg"
+              title="Чёрный"
+            ></button>
+            <button
+              class="color-dot color-dot--white"
+              data-img="/img/img/car/white-m6.svg"
+              title="Белый"
+            ></button>
+            <button
+              class="color-dot color-dot--gray"
+              data-img="img/img/car/silver-m6.svg"
+              title="Серый"
+            ></button>
+          </div>
+          <div class="car-card__features-flex">
+            <ul class="car-card__features">
+              <li>
+                <img src="/img/icon/sale-icon.svg" alt="sale-icon" />
+                Выгода по госпрограмме
+              </li>
+              <li>
+                <img src="img/icon/wallet-icon.svg" alt="wallet-icon" />
+                Максимальные выгоды по трейд-ин
+              </li>
+              <li>
+                <img src="img/icon/security-icon.svg" alt="security-icon" />
+                КАСКО в подарок
+              </li>
+              <li>
+                <img src="img/icon/tires-icon.svg" alt="tires-icon" />
+                Зимние шины в подарок
+              </li>
+              <li>
+                <img src="img/icon/gift-icon.svg" alt="gift-icon" />
+                Доп.оборудование на 100 000р в подарок
+              </li>
+            </ul>
+          </div>
+          <div class="car-card__actions">
+            <button class="car-card__btn car-card__btn--teal open-modal">УЗНАТЬ СТОИМОСТЬ</button>
+            <button class="car-card__btn car-card__btn--black open-modal">РАССЧИТАТЬ КРЕДИТ</button>
+            <button class="car-card__btn car-card__btn--outline open-modal">
+              ПОДОБРАТЬ КОМПЛЕКТАЦИЮ
+            </button>
+          </div>
+        </div>
+
+        <div class="car-card car-card--selected">
+          <div class="car-card__badge">
+            <span>В НАЛИЧИИ</span>
+          </div>
+          <div class="car-card__inner">
+            <div class="car-box">
+              <div class="car-card__top">
+                <h2 class="car-card__name">HAVAL DARGO X</h2>
+                <a href="#" class="car-card__testdrive"> Записаться<br />на тест-драйв </a>
+              </div>
+              <p class="car-card__benefit">Выгода до <span>320 000 ₽</span></p>
+              <div class="car-card__img-wrap">
+                <div class="car-background"></div>
+                <img src="img/img/car/black-dargo.svg" alt="HAVAL DARGO X" class="car-card__img" />
+              </div>
+            </div>
+          </div>
+          <div class="car-card__colors">
+            <button
+              class="color-dot color-dot--silver"
+              data-img="img/img/car/silver-dargo.svg"
+              title="Серебристый"
+            ></button>
+            <button
+              class="color-dot color-dot--black active"
+              data-img="img/img/car/black-dargo.svg"
+              title="Чёрный"
+            ></button>
+            <button
+              class="color-dot color-dot--lightgray"
+              data-img="img/img/car/grafit-dargo.svg"
+              title="Светло-серый"
+            ></button>
+            <button
+              class="color-dot color-dot--orange"
+              data-img="img/img/car/red_dargo.svg"
+              title="Оранжевый"
+            ></button>
+          </div>
+          <div class="car-card__features-flex">
+            <ul class="car-card__features">
+              <li class="car-card__text">
+                <img src="/img/icon/sale-icon.svg" alt="sale-icon" />
+                Выгода по госпрограмме
+              </li>
+              <li>
+                <img src="img/icon/wallet-icon.svg" alt="wallet-icon" />
+                Максимальные выгоды по трейд-ин
+              </li>
+              <li>
+                <img src="img/icon/security-icon.svg" alt="security-icon" />
+                КАСКО в подарок
+              </li>
+              <li>
+                <img src="img/icon/tires-icon.svg" alt="tires-icon" />
+                Зимние шины в подарок
+              </li>
+              <li>
+                <img src="img/icon/gift-icon.svg" alt="gift-icon" />
+                Доп.оборудование на 100 000р в подарок
+              </li>
+            </ul>
+          </div>
+          <div class="car-card__actions">
+            <button class="car-card__btn car-card__btn--teal open-modal">УЗНАТЬ СТОИМОСТЬ</button>
+            <button class="car-card__btn car-card__btn--black open-modal">РАССЧИТАТЬ КРЕДИТ</button>
+            <button class="car-card__btn car-card__btn--outline open-modal">
+              ПОДОБРАТЬ КОМПЛЕКТАЦИЮ
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
